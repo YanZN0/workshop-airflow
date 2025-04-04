@@ -5,7 +5,7 @@ from airflow.decorators import dag,task
 from datetime import datetime
 
 @dag(
-        dag_id="primeira_dag",
+        dag_id="quarta_pipeline",
         description="ETL MUITO complexa",
         schedule="* * * * *",       # Agendamento das tarefas, * * * * * significa 1 minuto.
         start_date=datetime(2025, 4, 4),        # Quando irá iniciar.

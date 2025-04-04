@@ -6,7 +6,7 @@ from datetime import datetime
 from airflow.models.baseoperator import chain
 
 @dag(
-        dag_id="primeira_dag",
+        dag_id="sexta_pipeline",
         description="ETL MUITO complexa",
         schedule="* * * * *",       # Agendamento das tarefas, * * * * * significa 1 minuto.
         start_date=datetime(2025, 4, 4),        # Quando irá iniciar.
