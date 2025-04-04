@@ -1,8 +1,6 @@
 # O Professor ensina 3 maneiras de criar uma DAG. Essa é a segunda sendo com uma instância (variável ), a nossa class DAG está sendo armazenada em uma instância e no final sendo executada por um Operador.
 
-
 import datetime
-
 from airflow import DAG
 from airflow.operators.empty import EmptyOperator
 
