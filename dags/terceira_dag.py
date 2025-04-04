@@ -37,8 +37,7 @@ def pipeline_atividades():      # Chamamos nossas atividades no começo, e não 
     t3 = terceira_atividade()
     t4 = quarta_atividade()
 
-    t1 >> [t2, t3]
-    t3 >> t4
+    t1 >> t2 >> t3 >> t4
 
     # Fluxo de atividades a serem executadas. (Modificado para prática)
 
