@@ -11,7 +11,7 @@ from datetime import datetime
         start_date=datetime(2025, 4, 4),        # Quando irá iniciar.
         catchup=False,      # Essa função funciona como um backfill, caso True, ela vai executar todos os dias passados.
 )
-def pipeline_atividades():      # Chamamos nossas atividades no começo, e não no final...
+def terceira_pipeline_atividades():      # Chamamos nossas atividades no começo, e não no final...
 
     @task   # Transforma essa função em uma task da DAG
     def primeira_atividade():
@@ -42,4 +42,4 @@ def pipeline_atividades():      # Chamamos nossas atividades no começo, e não 
     # Fluxo de atividades a serem executadas. (Modificado para prática)
 
 
-pipeline_atividades()
+terceira_pipeline_atividades()
