@@ -9,6 +9,7 @@ readme = "README.md"
 python = ">=3.11,<3.12"
 loguru = "^0.7.3"
 streamlit = "^1.44.1"
+apache-airflow = "^2.10.5"
 
 
 [build-system]
