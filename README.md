@@ -12,12 +12,12 @@ Airflow é uma ferramenta em forma de plataforma criada para criar, agendar e mo
 O Apache Airflow é uma ferramenta usada para criar, agendar e gerenciar fluxos de trabalhos de forma programática. Acontece que, ele não é uma simples imagem ou um simples framework (biblioteca), o Airflow é uma ferramenta e na verdade tem uma série de componentes, para a utilização dele precisamos de muito mais do que só dependências instaladas pelo pip ou muito mais do que uma imagem instalada no Docker. Na verdade essas instalações fazem parte de uma das etapas para utilização da ferramenta, a outra parte envolve configurações, para utilizarmos essa ferramenta precisamos de configurações, de uma infraestrutura principalmente para os componentes do Airflow e por isso a ferramenta passa esse “ar de complexidade”. Resumindo o Airflow não é uma biblioteca, o Airflow é uma ferramenta com muitos componentes que necessita de configurações e infraestrutura para a utilização.
 
 
-### O Que é uma DAG?
+## O Que é uma DAG?
 
 O que é uma DAG necessariamente? aposto que todos ja ouviram que é um fluxo de trabalho como "grafo acíclicos", mas todo iniciante em Airflow fica com medo desse nome, a DAG tem um conjunto de tarefas organizadas com depedências e seus relacionamentos. Mas bora resumir isso ai? Com o Python você consegue escrever e configurar sua DAG dentro dela você define: Quais são as tarefas; Qual a ordem entre elas; Quando elas devem rodar.
 Resumindo do resumo: A DAG recebe suas tarefas e você ajusta como e quando elas devem ser executadas.
 
-#### 3 Formas de fazer uma DAG:
+### 3 Formas de fazer uma DAG:
 
 Com ```with```:
 
