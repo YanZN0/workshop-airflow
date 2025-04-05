@@ -37,7 +37,7 @@ catchup=False
     EmptyOperator(task_id="tarefa")
 ```
 
-Com uma Instância(Variável) :
+Com uma Instância (Variável) :
 ```python
 # O Professor ensina 3 maneiras de criar uma DAG. Essa é a segunda sendo com uma instância (variável ), a nossa class DAG está sendo armazenada em uma instância e no final sendo executada por um Operador.
 
@@ -54,7 +54,7 @@ minha_dag = DAG(
 EmptyOperator(task_id="tarefa", dag=minha_dag)
 ```
 
-Com um Decorador(@) :
+Com um Decorador (@) :
 ```python
 # O Professor ensina 3 maneiras de criar uma DAG. Essa é a terceira forma sendo com Decoradores.
 
