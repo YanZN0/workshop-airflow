@@ -15,7 +15,7 @@ O Apache Airflow é uma ferramenta usada para criar, agendar e gerenciar fluxos 
 ## O Que é uma DAG?
 
 O que é uma DAG necessariamente? aposto que todos ja ouviram que é um fluxo de trabalho como "grafo acíclicos", mas todo iniciante em Airflow fica com medo desse nome, a DAG tem um conjunto de tarefas organizadas com depedências e seus relacionamentos. Mas bora resumir isso ai? Com o Python você consegue escrever e configurar sua DAG dentro dela você define: Quais são as tarefas; Qual a ordem entre elas; Quando elas devem rodar.
-Resumindo do resumo: A DAG recebe suas tarefas e você ajusta como e quando elas devem ser executadas.
+Resumindo do resumo: A DAG é como se fosse uma pipeline de ETL/ELT, ela tem sua funções e executa em uma ordem basicamente, e sobre o porque ela é "acíclica" pois não pode ter volta, ela sempre vai para frente.  
 
 ### 3 Formas de fazer uma DAG:
 
