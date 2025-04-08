@@ -70,3 +70,8 @@ from datetime import datetime
         catchup=False,
 )
 ```
+
+
+## Como refatorar um código para usar o Airflow?
+
+Para refatorar um código para utilizar o Airflow, é mais simples do que parece. Por exemplo: Sua pipeline de ETL em uma pasta hipotéticamente chamada src, essa pipeline contém um módulo chamado ```__init__.py``` ou ```main.py``` onde inicia todos os passos a passos em código da sua pipeline para chegar no seu objetivo específico, para refatorar esse código é extramente simples e fácil: Esse módulo que inicia seu código você joga na pasta ```dags```, usando a forma com decoradores (**@dag**, **@task**) você só configura a ordem em que as funções são executadas.
